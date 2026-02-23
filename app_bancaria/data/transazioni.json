@@ -1,0 +1,21 @@
+{
+  "utente_id": 1,
+  "nome": "Simona",
+  "saldo": 1500.75,
+  "transazioni": [
+    {
+      "id": 1,
+      "tipo": "uscita",
+      "categoria": "spesa",
+      "importo": 50.00,
+      "data": "2026-02-19"
+    },
+    {
+      "id": 2,
+      "tipo": "entrata",
+      "categoria": "stipendio",
+      "importo": 1200.00,
+      "data": "2026-02-18"
+    }
+  ]
+}
