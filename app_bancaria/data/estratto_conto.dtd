@@ -1,0 +1,15 @@
+<!ELEMENT EstrattoConto (Utente, DataGenerazione, Transazioni, SaldoFinale)>
+
+<!ELEMENT Utente (#PCDATA)>
+<!ELEMENT DataGenerazione (#PCDATA)>
+
+<!ELEMENT Transazioni (Transazione*)>
+
+<!ELEMENT Transazione (Tipo, Descrizione, Importo, Data)>
+
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Descrizione (#PCDATA)>
+<!ELEMENT Importo (#PCDATA)>
+<!ELEMENT Data (#PCDATA)>
+
+<!ELEMENT SaldoFinale (#PCDATA)>

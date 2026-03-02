@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EstrattoConto SYSTEM "estratto_conto.dtd">
+<EstrattoConto>
+    <Utente></Utente>
+    <DataGenerazione></DataGenerazione>
+    <Transazioni>
+    </Transazioni>
+    <SaldoFinale></SaldoFinale>
+</EstrattoConto>
