@@ -4,13 +4,16 @@
     { "username": "miriam", "tipo": "entrata", "descrizione": "Stipendio", "importo": 1800, "data": "2026-02-01" },
     { "username": "miriam", "tipo": "uscita", "descrizione": "Affitto", "importo": 700, "data": "2026-02-02" },
     { "username": "miriam", "tipo": "uscita", "descrizione": "Spesa", "importo": 200, "data": "2026-02-05" },
+    { "username": "miriam", "tipo": "uscita", "descrizione": "Palestra", "importo": 50, "data": "2026-02-10" },
 
     { "username": "paolo", "tipo": "entrata", "descrizione": "Freelance", "importo": 1200, "data": "2026-02-01" },
     { "username": "paolo", "tipo": "uscita", "descrizione": "Auto", "importo": 300, "data": "2026-02-03" },
     { "username": "paolo", "tipo": "uscita", "descrizione": "Bollette", "importo": 150, "data": "2026-02-06" },
+    { "username": "paolo", "tipo": "entrata", "descrizione": "Rimborso", "importo": 200, "data": "2026-02-08" },
 
     { "username": "alessia", "tipo": "entrata", "descrizione": "Stipendio", "importo": 1600, "data": "2026-02-01" },
     { "username": "alessia", "tipo": "uscita", "descrizione": "Shopping", "importo": 400, "data": "2026-02-04" },
+    { "username": "alessia", "tipo": "uscita", "descrizione": "Cinema", "importo": 30, "data": "2026-02-09" },
 
     { "username": "fabio", "tipo": "entrata", "descrizione": "Bonus", "importo": 900, "data": "2026-02-01" },
     { "username": "fabio", "tipo": "uscita", "descrizione": "Affitto", "importo": 500, "data": "2026-02-02" },
@@ -20,4 +23,5 @@
 
   ]
 }
+
 
