@@ -28,7 +28,15 @@ if (!isset($_SESSION['username'])) {
 	
 //collegamento saldo e xml
 
-//collegamento transazioni json e script
+    <section class="transazioni-section">
+        <h3>Movimenti Recenti</h3>
+        <div id="transazioni"></div>
+    </section>
+
+</div>
+
+<script src="assets/script.js"></script>
 
 </body>
+
 </html>
