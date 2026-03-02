@@ -14,14 +14,20 @@
     { "username": "alessia", "tipo": "entrata", "descrizione": "Stipendio", "importo": 1600, "data": "2026-02-01" },
     { "username": "alessia", "tipo": "uscita", "descrizione": "Shopping", "importo": 400, "data": "2026-02-04" },
     { "username": "alessia", "tipo": "uscita", "descrizione": "Cinema", "importo": 30, "data": "2026-02-09" },
+    { "username": "alessia", "tipo": "entrata", "descrizione": "Ripetizioni", "importo": 250, "data": "2026-02-10" },
+    { "username": "alessia", "tipo": "uscita", "descrizione": "Ristorante", "importo": 120, "data": "2026-02-12" },
 
     { "username": "fabio", "tipo": "entrata", "descrizione": "Bonus", "importo": 900, "data": "2026-02-01" },
     { "username": "fabio", "tipo": "uscita", "descrizione": "Affitto", "importo": 500, "data": "2026-02-02" },
+    { "username": "fabio", "tipo": "entrata", "descrizione": "Vendita online", "importo": 300, "data": "2026-02-11" },
+    { "username": "fabio", "tipo": "uscita", "descrizione": "Carburante", "importo": 100, "data": "2026-02-13" },
 
     { "username": "ema_volpy", "tipo": "entrata", "descrizione": "Stipendio", "importo": 2000, "data": "2026-02-01" },
     { "username": "ema_volpy", "tipo": "uscita", "descrizione": "Viaggio", "importo": 800, "data": "2026-02-07" }
-
+    { "username": "ema_volpy", "tipo": "entrata", "descrizione": "Progetto extra", "importo": 600, "data": "2026-02-09" },
+    { "username": "ema_volpy", "tipo": "uscita", "descrizione": "Abbonamento palestra", "importo": 60, "data": "2026-02-14" }
   ]
 }
+
 
 
