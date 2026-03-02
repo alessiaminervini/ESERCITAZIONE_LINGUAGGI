@@ -1,0 +1,15 @@
+app:
+  nome: SmartFinance
+  versione: 1.0
+  ambiente: sviluppo
+
+features:
+  dashboard: true
+  fatture_xml: true
+
+database:
+  host: localhost
+  nome: smartfinance
+
+export:
+  abilita_download_xml: true
