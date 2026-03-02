@@ -25,8 +25,19 @@ if (!isset($_SESSION['username'])) {
         </div>
         <a class="logout-btn" href="auth/logout.php">Logout</a>
     </header>
-	
-//collegamento saldo e xml
+
+	<section class="saldo-section">
+        <div class="saldo-card">
+            <p class="saldo-label">Saldo disponibile</p>
+            <p id="saldo" class="saldo-value">€ 0.00</p>
+        </div>
+        <?php if ($config["export"]["abilita_download_xml"] == "true") : ?>
+		<div class="estratto-card">
+    		<p>Scarica estratto conto completo</p>
+    		<a href="api/download_estratto.php" target="_blank" class="download-btn">Scarica XML</a>
+		</div>
+		<?php endif; ?>
+    </section>
 
     <section class="transazioni-section">
         <h3>Movimenti Recenti</h3>
@@ -40,3 +51,4 @@ if (!isset($_SESSION['username'])) {
 </body>
 
 </html>
+
