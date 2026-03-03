@@ -6,8 +6,38 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 
-//collegamento yaml
+$config = [];
+$config_raw = file("config/app.yaml");
 
+$current_section = null;
+
+foreach ($config_raw as $line) {
+    $line = trim($line);
+
+    if (strpos($line, ":") !== false) {
+        if (substr($line, -1) == ":") {
+            $current_section = rtrim($line, ":");
+            $config[$current_section] = [];
+        } else {
+            list($key, $value) = explode(":", $line, 2);
+            $key = trim($key);
+            $value = trim($value);
+
+            if ($current_section) {
+                $config[$current_section][$key] = $value;
+            } else {
+                $config[$key] = $value;
+            }
+        }
+    }
+}
+
+$app_nome = $config["app"]["nome"];
+$app_versione = $config["app"]["versione"];
+$app_ambiente = $config["app"]["ambiente"];
+
+$username = $_SESSION['username'];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,4 +81,5 @@ if (!isset($_SESSION['username'])) {
 </body>
 
 </html>
+
 
